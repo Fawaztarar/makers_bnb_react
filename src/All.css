@@ -1,0 +1,92 @@
+/* Dashboard.css */
+
+.Dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* Add more styling as needed */
+
+
+  /* Profile.css */
+
+.Profile {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Add more styling as needed */
+
+  /* Listings.css */
+
+.Listings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Add more styling as needed */
+  
+/* PropertyTile.css */
+
+.PropertyTile {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .PropertyTile h3 {
+    margin: 0;
+  }
+  
+  .PropertyTile p {
+    margin: 10px 0;
+  }
+  
+  .PropertyTile button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .PropertyTile button:hover {
+    background-color: #0056b3;
+  }
+  
+  .PropertyTile.liked {
+    transform: scale(1.05);
+    background-color: #ffc107;
+  }
+  
+  /* Add more styling as needed */
+  /* LikeButton.css */
+
+.LikeButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .LikeButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .LikeButton.liked {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  /* Customize the button styles as needed */
+  
